@@ -1,0 +1,6 @@
+exportPattern(MPL, MPL.fit, MPL.control, maximin, TR)
+importFrom("stats", "as.formula", "coef", "delete.response", "lm", "glm",
+           "model.matrix", "model.response", "terms", "var", "plogis",
+		   "coefficients", "cov")
+import("Formula")
+import("kernlab")
