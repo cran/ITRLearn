@@ -340,7 +340,7 @@ function(y, x.tau, a, g=NULL, x.h=NULL, x.pi=NULL, random=FALSE, control=MPL.con
 			xty <- c(crossprod((a-pi.est)*cbind(1,x.tau), y), crossprod(cbind(1,x.h), y))
 			Theta.est <- solve(xtx, xty)
 			Theta.h.est <- Theta.est[-(1:(p+1))]
-			h.est <- crossprod(cbind(1,x.h), Theta.h.est)
+			h.est <- cbind(1,x.h) %*% Theta.h.est
 			Theta.est <- Theta.est[1:(p+1)]
 			B <- NULL
 			c0 <- NULL

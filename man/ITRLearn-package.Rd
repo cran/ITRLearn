@@ -18,8 +18,8 @@
 \tabular{ll}{
 Package: \tab ITRLearn\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2018-10-22\cr
+Version: \tab 1.0-1\cr
+Date: \tab 2018-11-14\cr
 License: \tab GPL-2\cr
 }
 

@@ -1,8 +1,8 @@
 Package: ITRLearn
 Type: Package
 Title: Statistical Learning for Individualized Treatment Regime
-Version: 1.0
-Date: 2018-10-22
+Version: 1.0-1
+Date: 2018-11-14
 Author: Chengchun Shi, Rui Song, Wenbin Lu and Bo Fu
 Maintainer: Chengchun Shi <cshi4@ncsu.edu>
 Description: Maximin-projection learning (MPL, Shi, et al., 2018) is implemented for 
@@ -17,5 +17,5 @@ Imports: Formula, kernlab
 License: GPL-2
 NeedsCompilation: yes
 Repository: CRAN
-Packaged: 2018-10-25 17:13:22 UTC; spring
-Date/Publication: 2018-10-30 18:40:14 UTC
+Packaged: 2018-11-15 03:28:02 UTC; spring
+Date/Publication: 2018-11-15 05:10:03 UTC

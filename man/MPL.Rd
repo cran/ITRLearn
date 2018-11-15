@@ -179,6 +179,9 @@ result <- MPL(Y~X|A|G, method="Q")
 ## A-learning
 result <- MPL(Y~X|A|G)
 
+## treating as homogeneous
+result <- MPL(Y~X|A)
+
 \donttest{
 result <- MPL(Y~X|A|G, bootstrap=TRUE)
 }
